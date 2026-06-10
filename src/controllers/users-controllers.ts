@@ -34,7 +34,7 @@ class UsersController {
 
       const { password: _, ...userWithoutPassword } = user
 
-      return response.status(201).json(userWithSameEmail)
+      return response.status(201).json(userWithoutPassword)
     }
 }
 
