@@ -4,3 +4,4 @@ dist
 *.log
 docker-compose.yml
 /src/generated/prisma
+build
